@@ -1,0 +1,6 @@
+name: remrem
+version: '${project.version}'
+main: net.rexbr.remrem.Remrem
+api-version: 1.19
+authors: [rexbr]
+description: remrem plugin is a rexbr plugin :3
