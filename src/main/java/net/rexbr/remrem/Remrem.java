@@ -1,5 +1,6 @@
 package net.rexbr.remrem;
 
+import net.rexbr.remrem.items.PlayerHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Remrem extends JavaPlugin {
@@ -8,6 +9,8 @@ public final class Remrem extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("RemRem Has Sucefully Started");
+
+        new PlayerHandler(this);
     }
 
     @Override
