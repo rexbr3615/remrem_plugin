@@ -26,6 +26,7 @@ public final class Remrem extends JavaPlugin {
         System.out.println("RemRem Has Sucefully Terminated");
     }
 
+    // dont working
     @EventHandler
     public void onKill(PlayerDeathEvent e)
     {
