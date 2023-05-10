@@ -1,5 +1,5 @@
 name: remrem
-version: '${project.version}'
+version: '1.0'
 main: net.rexbr.remrem.Remrem
 api-version: 1.19
 authors: [rexbr]
