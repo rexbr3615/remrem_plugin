@@ -4,3 +4,11 @@ main: net.rexbr.remrem.Remrem
 api-version: 1.19
 authors: [rexbr]
 description: remrem plugin is a rexbr plugin :3
+commands:
+  flymin:
+    description: a fly command? i think.
+    usage: /flymin
+    aliases: f
+    permission: flymin
+    permission-message: You are not allowed to use this!
+
